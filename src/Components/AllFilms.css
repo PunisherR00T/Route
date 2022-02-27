@@ -1,0 +1,7 @@
+.List{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    border-top-style: solid;
+    margin-top: 15px;
+}

@@ -1,0 +1,22 @@
+
+#Navlist {
+  list-style-type:none;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+#NavFilms{
+  border-bottom-style: solid;
+
+}
+
+#Films{
+  background-color: black;
+  color:white;
+  width: 5%;
+  text-align: center;
+  padding: 6px 0 6px 0;
+}
