@@ -45,7 +45,7 @@ const FilmAdd = ({handleadd}) => {
                             <Form.Label>Description</Form.Label>
                             <Form.Control type="text" placeholder="Description..." onChange={(e)=>setDescription(e.target.value)}/>
                         </Form.Group>
-                        <Rating onChange={(e)=>setRatingstars(e.target.value)} precision={0.5} />
+                        <Rating onChange={(e)=>setRatingstars(e.target.value)} />
 
                     </Form>
                     

@@ -1,5 +1,4 @@
 import { Rating } from '@mui/material'
-
 import './Filmfilter.css'
 
 const Filmfilter = ({inpt,rate,setInpt,setRate}) => {

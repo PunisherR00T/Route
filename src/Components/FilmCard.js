@@ -1,6 +1,8 @@
 import { Rating } from '@mui/material'
 import {Card,Button} from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import ShowMoreText from 'react-show-more-text'
+
 import './FilmCard.css'
 
 const FilmCard = ({film}) => {
@@ -20,7 +22,7 @@ const FilmCard = ({film}) => {
                     </Card.Text> 
                     <Rating defaultValue={film.rating} readOnly />
 
-    <Button variant="primary">Regarder</Button>
+    <Button variant="primary"><Link to={`/Films/${film.titre}`} id='link'>Regarder</Link></Button>
 
   </Card.Body>
 </Card>
